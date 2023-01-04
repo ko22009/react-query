@@ -1,0 +1,40 @@
+{
+  "name": "react-query",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "js:lint": "next lint",
+    "ts:lint": "tsc --noEmit -p .",
+    "prettier": "prettier --check --ignore-path .gitignore .",
+    "prettier:fix": "prettier --write --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "mobx": "^6.5.0",
+    "mobx-react-lite": "^3.3.0",
+    "next": "12.1.5",
+    "next-pwa": "^5.5.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-query": "^3.38.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.1.1",
+    "@types/jest": "^27.5.0",
+    "@types/node": "17.0.25",
+    "@types/react": "18.0.6",
+    "@types/react-dom": "18.0.2",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5",
+    "jest": "^28.0.3",
+    "postcss": "^8.4.13",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.0.24",
+    "ts-jest": "^28.0.0",
+    "typescript": "4.6.3"
+  }
+}
